@@ -1,0 +1,17 @@
+.categoria-produtos {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoria-produtos h2 {
+    margin: 0;    
+}
+
+.categoria-produtos .categoria-produtos__itens {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
