@@ -1,5 +1,6 @@
 import './App.css';
 import Footer from './componentes/Footer';
+import FormularioDadosCartao from './componentes/FormularioDadosCartao';
 import HomePage from './componentes/HomePage';
 import Menu from "./componentes/Menu";
 import VitrineCategoria from './componentes/VitrineCategoria';
@@ -62,9 +63,18 @@ function App() {
   return (
     <div className="app">
       <Menu />
+
+      {/* Home */}
       <HomePage />
-      <VitrineCategoria titulo="Mídias" subtitulo="Encontre aqui as obras que marcaram a sua vida" categoriasProduto={produtosMidias}/>
-      <VitrineCategoria titulo="Dispositivos" subtitulo="Cria experiências incríveis com os aparelhos da sua vida" categoriasProduto={produtosDispositivos}/>
+
+      {/* Mídias */}
+      {/* <VitrineCategoria titulo="Mídias" subtitulo="Encontre aqui as obras que marcaram a sua vida" categoriasProduto={produtosMidias}/> */}
+      
+      {/* Dispositivos */}
+      {/* <VitrineCategoria titulo="Dispositivos" subtitulo="Cria experiências incríveis com os aparelhos da sua vida" categoriasProduto={produtosDispositivos}/> */}
+
+      <FormularioDadosCartao />
+      
       <Footer contatos={contatos} categorias={categorias} />
     </div>
   );
