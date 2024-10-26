@@ -1,11 +1,13 @@
 import './App.css';
 import Comentarios from './componentes/Comentarios';
 import ConsultaProduto from './componentes/ConsultaProduto';
+import DetalhesPedido from './componentes/DetalhesPedido';
 import Footer from './componentes/Footer';
 import FormularioCadastro from './componentes/FormularioCadastro';
 import FormularioLogin from './componentes/FormularioLogin';
 import HomePage from './componentes/HomePage';
 import Menu from "./componentes/Menu";
+import MeuCarrinho from './componentes/MeuCarrinho';
 import ProdutosRelacionados from './componentes/ProdutosRelacionados';
 import TituloAcesso from './componentes/TituloAcesso';
 import VitrineCategoria from './componentes/VitrineCategoria';
@@ -94,24 +96,30 @@ function App() {
       <Menu />
 
       {/* 1- Home */}
-      <HomePage />
+      {/* <HomePage /> */}
 
       {/* 2 - Mídias */}
-      <VitrineCategoria titulo="Mídias" subtitulo="Encontre aqui as obras que marcaram a sua vida" categoriasProduto={produtosMidias}/>
+      {/* <VitrineCategoria titulo="Mídias" subtitulo="Encontre aqui as obras que marcaram a sua vida" categoriasProduto={produtosMidias}/> */}
 
       {/* 3 - Dispositivos */}
-      <VitrineCategoria titulo="Dispositivos" subtitulo="Cria experiências incríveis com os aparelhos da sua vida" categoriasProduto={produtosDispositivos}/>
+      {/* <VitrineCategoria titulo="Dispositivos" subtitulo="Cria experiências incríveis com os aparelhos da sua vida" categoriasProduto={produtosDispositivos}/> */}
 
       {/* 4 - Tela de detalhes do produto */}
-      <ConsultaProduto infoProduto={infoProduto[0]} />
+      {/* <ConsultaProduto infoProduto={infoProduto[0]} />
       <ProdutosRelacionados produtosRelacionados={produtosRelacionados}/>
-      <Comentarios comentarios={comentarios}/>
+      <Comentarios comentarios={comentarios}/> */}
 
       {/* 5 - Tela de Login */}
-      <FormularioLogin />
+      {/* <FormularioLogin /> */}
 
       {/* 6 - Tela de Cadastro */}
-      <FormularioCadastro />
+      {/* <FormularioCadastro /> */}
+
+      {/* 7 - Tela do Meu Carrinho */}
+      {/* <MeuCarrinho /> */}
+
+      {/* 8 - Tela de Detalhes do Pedido */}
+      <DetalhesPedido />
 
       {/* Testes feitos com a Thassy */}
       {/* <FormularioDadosCartao /> */}
