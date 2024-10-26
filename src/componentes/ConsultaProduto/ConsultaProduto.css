@@ -1,0 +1,10 @@
+.consulta-produto {
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.consulta-produto .consulta-produto__detalhes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
