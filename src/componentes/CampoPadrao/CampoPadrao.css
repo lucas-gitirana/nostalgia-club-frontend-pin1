@@ -1,10 +1,10 @@
-.campo-texto {
+.campo-padrao {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
 }
 
-.campo-texto label {
+.campo-padrao label {
     color: #000;
 
     /* Title/16PX Regular */
@@ -16,7 +16,7 @@
     /* 150% */
 }
 
-.campo-texto input {
+.campo-padrao input {
     border-radius: 0.625rem;
     background: var(--secundaria, #D4E8E1);
     border: none;
