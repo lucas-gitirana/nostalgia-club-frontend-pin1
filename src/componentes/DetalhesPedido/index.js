@@ -21,7 +21,7 @@ const DetalhesPedido = () => {
             <div className="detalhes-pedido__dados">
                 <CardTotalPedido subtotal={dadosTotal.subtotal} frete={dadosTotal.frete} total={dadosTotal.total} />
                 <CampoFormaPagamento/>
-                <BotaoPadrao titulo="Finalizar" />
+                <BotaoPadrao titulo="Finalizar" link="/detalhes-pedido"/>
             </div>
         </section>
     )

@@ -12,7 +12,7 @@ const FormularioDadosPessoais = () => {
                     <CampoPadrao type="text" label="Telefone" tamanho="w-49" />
                 </div>
                 <div className="agrupador">
-                    <CampoPadrao type="text" label="CEP" tamanho="w-49" />
+                    <CampoPadrao type="text" label="CEP" tamanho="w-79" />
                     <CampoPadrao type="number" label="Número" tamanho="w-20" />
                 </div>
                 <CampoPadrao type="text" label="Rua" tamanho="w-100" />

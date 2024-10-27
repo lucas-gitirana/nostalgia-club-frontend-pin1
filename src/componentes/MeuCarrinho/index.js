@@ -61,7 +61,7 @@ const MeuCarrinho = () => {
             <GridProdutosCarrinho cabecalho={cabecalho} itens={itens}/>
             <div className="meu-carrinho__total">
                 <CardTotalPedido subtotal={dadosTotal.subtotal} frete={dadosTotal.frete} total={dadosTotal.total}>
-                    <BotaoPadrao titulo="Realizar Pagamento"/>
+                    <BotaoPadrao titulo="Realizar Pagamento" link="/detalhes-pedido"/>
                 </CardTotalPedido>
             </div>
         </section>

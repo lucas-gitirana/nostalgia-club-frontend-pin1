@@ -1,5 +1,4 @@
 .menu-botao {
-    cursor: pointer;
     height: 1.5rem;
     font-family: var(--Headline-Small-Font, Roboto);
     font-size: var(--Headline-Small-Size, 1.02rem);
@@ -7,6 +6,12 @@
     font-weight: 400;
     display: flex;
     align-items: center;
+}
+
+.menu-botao .link-botao {
+    text-decoration: none;
+    color: #000;
+    height: 100%;
 }
 
 .menu-botao img {

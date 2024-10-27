@@ -8,7 +8,7 @@ const FormularioLogin = () => {
         { 'label': 'Senha', 'type': 'password' }
     ]
 
-    const acessarCadastro = { 'texto': 'Ainda não possui uma conta?', 'tituloLink': 'Cadastre-se', 'link': 'http://localhost:3000/?' }
+    const acessarCadastro = { 'texto': 'Ainda não possui uma conta?', 'tituloLink': 'Cadastre-se', 'link': 'http://localhost:3000/cadastro' }
 
     return (
         <section className="formulario-login">

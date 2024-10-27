@@ -22,4 +22,12 @@
 
 .botao-padrao:hover{
     color: var(--Titulos-h1, #6CAEAE);
-}   
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-49 {
+    width: 49%;
+}

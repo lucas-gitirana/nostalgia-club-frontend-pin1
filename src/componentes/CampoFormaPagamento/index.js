@@ -5,7 +5,7 @@ const CampoFormaPagamento = () => {
         <div className="campo-forma-pagamento">
             <label>Forma de Pagamento:</label>
             <select disabled>
-                <option disabled>Pix</option>
+                <option>Pix</option>
             </select>
         </div>
     )

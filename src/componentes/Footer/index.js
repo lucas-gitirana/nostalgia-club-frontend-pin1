@@ -4,13 +4,13 @@ const Footer = (props) => {
     return (
         <footer className="footer">
             <div className="footer__item footer__logo">
-                <img alt="Logo" src="imagens/logo-nclub.png"></img>
+                <img alt="Logo" src="http://localhost:3000/imagens/logo-nclub.png"></img>
             </div>
 
             <div className="footer__item footer__informacoes">
                 <h3>Informações</h3>
-                <a href="http://localhost:3000/?">Minha Conta</a>
-                <a href="http://localhost:3000/?">Meus Pedidos</a>
+                <a href="/perfil">Minha Conta</a>
+                <a href="/perfil/pedidos-realizados">Meus Pedidos</a>
             </div>
 
             <div className="footer__item footer__contatos">
